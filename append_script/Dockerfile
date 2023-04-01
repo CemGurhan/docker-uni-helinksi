@@ -4,6 +4,7 @@ WORKDIR /app/
 
 COPY . .
 
+# All run is automatically done in work directory by default
 RUN chmod +x input_site.sh
 
 CMD [ "./input_site.sh" ]
